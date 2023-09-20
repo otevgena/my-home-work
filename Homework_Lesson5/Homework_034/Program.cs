@@ -28,8 +28,7 @@ else
 
     Console.WriteLine($"В массиве {result} четных чисел");
 
-// Методы
-void FillArrayRandomNumbers(int [] array) //Заполнение массива
+void FillArrayRandomNumbers(int [] array) 
 {
     for (int i = 0; i < array.Length; i++)
     {
@@ -37,7 +36,7 @@ void FillArrayRandomNumbers(int [] array) //Заполнение массива
     }
 }
 
-void PrintArray(int[] array) //Вывод массива на экран
+void PrintArray(int[] array) 
 {
     for (int i = 0; i < array.Length; i++)
     {
@@ -47,7 +46,7 @@ void PrintArray(int[] array) //Вывод массива на экран
 }
 
 
-int ReadInt(string message)  //Функция ввода
+int ReadInt(string message)  
 {
     Console.Write(message);
     return Convert.ToInt32(Console.ReadLine());

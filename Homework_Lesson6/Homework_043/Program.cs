@@ -2,7 +2,7 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 3
 
-Console.WriteLine($"Задача 41. Cколько чисел больше 0 ввёл пользователь \n");
+Console.WriteLine($"Cколько чисел больше 0 ввёл пользователь \n");
 Console.Write($"Введи число М(количество чисел): ");
 int m = Convert.ToInt32(Console.ReadLine());
 int[] massiveNumbers = new int[m];
